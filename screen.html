@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экран — HelloChat</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-light screen-mode">
+    <main class="screen-layout">
+        <div class="screen-content">
+            <div class="screen-bubble bubble" id="messageBubble">
+                <p id="messageText">Пример сообщения</p>
+            </div>
+            <div class="qr-panel" id="qrPanel">
+                <img src="assets/qr.png" alt="QR код" class="qr-code">
+                <p class="qr-label">Сканируй для участия</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/app.js"></script>
+    <script>
+        // Initialize screen functionality
+        applyThemeFromURL();
+        toggleQRFromURL();
+        startMockPoll();
+    </script>
+</body>
+</html>

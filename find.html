@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Найти чат — HelloChat</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-light">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/logo-new.svg" alt="HelloChat">
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="organizers.html" class="nav-link">Для организаторов</a>
+                    <a href="find.html" class="nav-link active">Найти чат</a>
+                </nav>
+                <a href="https://t.me/hellochat_bot" class="btn btn-primary">Перейти в бота</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <div class="search-card bubble">
+                    <h1>Найти чат</h1>
+                    <div class="search-form">
+                        <input type="text" placeholder="Код события или название" class="search-input">
+                        <div class="search-buttons">
+                            <button class="btn btn-primary">Найти</button>
+                            <button class="btn btn-secondary" disabled>Сканировать QR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div class="container">
+                <div class="results">
+                    <div class="result-card bubble">
+                        <div class="sticker sticker-live">LIVE</div>
+                        <h3>День рождения Анны</h3>
+                        <p>Поздравления и пожелания для именинницы</p>
+                        <div class="result-actions">
+                            <a href="https://t.me/hellochat_bot" class="btn btn-primary">Открыть в Telegram</a>
+                            <a href="screen.html" class="btn btn-secondary">Открыть экран</a>
+                        </div>
+                    </div>
+
+                    <div class="result-card bubble">
+                        <div class="tape tape-corner"></div>
+                        <h3>Корпоратив IT-компании</h3>
+                        <p>Вопросы спикерам и обратная связь</p>
+                        <div class="result-actions">
+                            <a href="https://t.me/hellochat_bot" class="btn btn-primary">Открыть в Telegram</a>
+                            <a href="screen.html" class="btn btn-secondary">Открыть экран</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© HelloChat</p>
+        </div>
+    </footer>
+</body>
+</html>
