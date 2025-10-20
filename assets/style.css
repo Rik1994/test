@@ -281,6 +281,19 @@ a:hover {
   justify-content: center;
 }
 
+.hero-banner {
+  margin-top: var(--space-xl);
+}
+
+.hero-banner img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: var(--radius);
+  border: 2px solid var(--black);
+  display: block;
+  margin: 0 auto;
+}
+
 /* Cards */
 .cards {
   display: grid;
