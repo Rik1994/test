@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="198" viewBox="0 0 720 198" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">ZABOR logo</title>
+  <g fill="#FF2EBB">
+    <path d="M18 20H126V58H84.5L138 118V158H18V120H61L18 70z"/>
+    <path d="M154 20H244L274 158H232L226 126H172L166 158H124L154 20ZM222 92L208 44H188L174 92H222Z"/>
+    <path d="M302 20H370C398 20 418 40 418 70C418 91.5 406.5 110 388 118C400 127 406 139 412 158H368C362 142 354 124 332 124H344V158H302V20ZM362 52H344V90H362C372 90 380 82 380 72C380 62 372 52 362 52Z"/>
+    <path d="M444 20H512C542 20 566 44 566 90C566 136 542 158 512 158H444V20ZM502 56V122H510C522 122 530 110 530 90C530 70 522 56 510 56H502Z"/>
+    <path d="M590 20H658C692 20 714 44 714 76C714 94 704 112 688 120L718 158H668L646 126H632V158H590V20ZM650 52V84H658C668 84 676 78 676 68C676 58 668 52 658 52H650Z"/>
+    <circle cx="42" cy="182" r="6"/>
+    <circle cx="102" cy="182" r="6"/>
+    <circle cx="162" cy="182" r="6"/>
+    <circle cx="222" cy="182" r="6"/>
+    <circle cx="282" cy="182" r="6"/>
+    <circle cx="342" cy="182" r="6"/>
+    <circle cx="402" cy="182" r="6"/>
+    <circle cx="462" cy="182" r="6"/>
+    <circle cx="522" cy="182" r="6"/>
+    <circle cx="582" cy="182" r="6"/>
+  </g>
+</svg>
