@@ -373,6 +373,16 @@ a:hover {
   margin-top: var(--space-md);
 }
 
+.manager-cta {
+  margin-top: var(--space-xl);
+  display: flex;
+  justify-content: center;
+}
+
+.manager-cta .btn {
+  min-width: 240px;
+}
+
 .benefits-list {
   list-style: none;
   padding: 0;
